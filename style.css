@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.download-channel {
+  display: flex;
+}
+
+.border-line {
+  border: 1px solid black;
+}
+
+/* FAQS */
+.faq-section {
+  min-height: 100vh;
+  width: 80%;
+}
+
+.faq {
+  border-bottom: 1px solid black;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+
+.faq.active .answer {
+  max-height: 1000px;
+  animation: fade 1s ease-in-out;
+}
+
+.faq.active svg {
+  transform: rotate(180deg);
+}
+
+.final {
+  border-bottom-style: none;
+}
+
+svg {
+  transition: transform 0.5s ease-in;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
