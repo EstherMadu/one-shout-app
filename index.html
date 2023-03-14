@@ -7,117 +7,121 @@
     <title>One Shout App</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
-  </head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  </head>
   <body class="bg-slate-100 font-sans">
-    <main class="container mx-auto">
-      <header class="header bg-white lg:flex lg:justify-between">
-        <div class="p-6">
+    <main class="">
+      <nav>
+        <div class="container py-6">
           <h3 class="font-mono text-3xl font-bold leading-7 lg:text-5xl">
             EBS
           </h3>
-          <h1 class="font-light text-5xl mt-10 lg:text-8xl lg:py-12">
-            One Shout App
-          </h1>
-          <span class="download-channel mt-20 lg:py-12">
-            <img
-              src="images/google-play.png"
-              class="w-1/2 lg:w-56 lg:h-1/4"
-              alt="get on google play"
-            />
-            <img
-              src="images/apple-store.png"
-              alt="download on apple store"
-              class="w-1/2 lg:w-56 lg:h-1/4"
-            />
-          </span>
         </div>
+      </nav>
+      <header class="header">
+        <div class="container grid md:grid-cols-12 items-center gap-10 py-12">
+          <div class="md:col-span-7">
+            <h1 class="text-5xl mt-10 lg:text-8xl lg:py-2 lg:font-medium">
+              One Shout App
+            </h1>
+            <span class="download-channel mt-10">
+              <img
+                src="images/google-play.png"
+                class="w-1/2 lg:w-56 lg:h-1/4"
+                alt="get on google play"
+              />
+              <img
+                src="images/apple-store.png"
+                alt="download on apple store"
+                class="w-1/2 lg:w-56 lg:h-1/4"
+              />
+            </span>
+          </div>
 
-        <div class="logo-parent py-8">
-          <img
-            src="images/one-shout-logo.png"
-            alt="one shout logo"
-            class="logo-image w-2/3 rounded-3xl my-0 mx-auto lg:w-4/6 lg:mt-10"
-          />
+          <div class="md:col-span-5">
+            <img
+              src="images/one-shout-logo.png"
+              alt="one shout logo"
+              class="logo-image rounded-3xl"
+            />
+          </div>
         </div>
       </header>
-      <section class="my-4 p-6 lg:flex">
-        <div class="friends-img lg:w-3/4">
-          <img
-            src="images/friends.jpg"
-            alt="Image of friends holding hands"
-            class=""
-          />
-        </div>
-        <div class="lg:w-4/5 lg:ml-14 lg:w-7/12">
-          <h1 class="text-3xl my-4 font-semibold lg:font-bold lg:text-5xl">
-            About The App
-          </h1>
-          <p class="text-sm font-light lg:text-xl lg:leading-normal">
-            One Shout is a revolutionary app that helps keep your families,
-            friends, neighbors, and loved ones safe anywhere in the world. With
-            the One Shout App on your phone, you worry less about your safety
-            and that of your loved ones on the road, rail, airplanes and
-            waterways.
-            <br />
-            Just one click will get your contacts notified about your location
-            and safety. The Multi-lingual feature makes One Shout easy to use by
-            all as you can select your preferred language.
-          </p>
+      <section class="py-32">
+        <div class="container grid md:grid-cols-2 items-center gap-12">
+          <div class="friends-img">
+            <img
+              src="images/friends.jpg"
+              alt="Image of friends holding hands"
+              class="rounded-xl h-96 object-cover"
+            />
+          </div>
+          <div class="">
+            <h1 class="text-3xl lg:text-5xl font-semibold lg:font-medium">
+              About the app
+            </h1>
+            <p class="text-sm font-light lg:text-xl lg:leading-normal mt-8">
+              One Shout is a revolutionary app that helps keep your families,
+              friends, neighbors, and loved ones safe anywhere in the world.
+              With the One Shout App on your phone, you worry less about your
+              safety and that of your loved ones on the road, rail, airplanes
+              and waterways.
+              <br />
+              Just one click will get your contacts notified about your location
+              and safety. The Multi-lingual feature makes One Shout easy to use
+              by all as you can select your preferred language.
+            </p>
+          </div>
         </div>
       </section>
-      <article class="p-10 bg-red-600 text-xl lg:p-30">
-        <h3 class="text-3xl font-semibold my-4">Our Features</h3>
-        <div class="my-14 mx-auto lg:flex lg:justify-between lg:px-18 lg:py-18">
-          <div>
-            <img
-              src="images/megaphone.png"
-              alt="megaphone"
-              class="my-0 mx-auto w-28"
-            />
-            <p class="px-8 py-4 text-center lg:w-80">
-              Send shout to emergency contact with a push of one button
-            </p>
-          </div>
-          <div>
-            <img
-              src="images/locate.png"
-              alt="locate"
-              class="my-0 mx-auto w-32 pt-6"
-            />
-            <p class="px-8 py-4 text-center lg:w-80">
-              Shows location of sender and receiver, real-time live location
-              updates.
-            </p>
-          </div>
-          <div>
-            <img
-              src="images/multilingual.png"
-              alt="east west north and south"
-              class="my-0 mx-auto w-32 pt-6"
-            />
-            <p class="px-8 py-4 text-center lg:w-80">Multi-lingual option</p>
+      <article class="bg-gray-900 text-xl py-20 lg:py-32 text-gray-200">
+        <div class="container">
+          <h3 class="text-3xl lg:text-5xl font-semibold mb-28 text-center">Our Features</h3>
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="flex flex-col items-center justify-start">
+              <i class='bx bxs-megaphone text-7xl opacity-70 mb-4'></i>   
+              <p class="px-8 py-4 text-center lg:w-80">
+                Send shout to emergency contact with a push of one button
+              </p>
+            </div>
+            <div class="flex flex-col items-center justify-start">
+              <i class='bx bx-current-location text-7xl opacity-70 mb-4' ></i>
+              <p class="px-8 py-4 text-center lg:w-80">
+                Shows location of sender and receiver, real-time live location
+                updates.
+              </p>
+            </div>
+            <div class="flex flex-col items-center justify-start">
+              <i class='bx bxs-layer text-7xl opacity-70 mb-4'></i>
+              <p class="px-8 py-4 text-center lg:w-80">Multi-lingual option</p>
+            </div>
           </div>
         </div>
       </article>
-      <section class="p-6">
-        <h2 class="text-4xl font-semibold my-4">Pricing</h2>
-        <div
-          class="lg:flex lg:justify-between lg:items-center lg:my-24 lg:px-18"
-        >
-          <div class="bg-white rounded-xl my-4 lg:w-72 lg:py-20">
-            <h2 class="text-center text-3xl font-medium">Monthly</h2>
-            <div class="border-b-4 border-black w-32 mt-4 mx-auto"></div>
-            <h2 class="text-3xl font-bold text-center">$1</h2>
-          </div>
-          <div class="bg-red-500 rounded-xl my-4 lg:w-72 lg:py-20">
-            <h2 class="text-center text-3xl font-medium mt-8">6 Months</h2>
-            <div class="border-b-4 border-black w-32 mt-4 mx-auto"></div>
-            <h2 class="text-3xl font-bold text-center">$5</h2>
-          </div>
-          <div class="bg-white rounded-xl my-4 lg:w-72 lg:py-20">
-            <h2 class="text-center text-3xl font-medium mt-8">Yearly</h2>
-            <div class="border-b-4 border-black w-32 mt-4 mx-auto"></div>
-            <h2 class="text-3xl font-bold text-center">$9</h2>
+      <section class="py-24">
+        <div class="container">
+          <h2 class="text-3xl lg:text-5xl mb-16 font-semibold text-center">Pricing</h2>
+          <div class="grid md:grid-cols-3 gap-10">
+            <div class="bg-slate-200 rounded-xl text-center flex flex-col justify-center items-center my-4 lg:py-20">
+              <div class="inline-flex items-center space-x-2">
+                <h2 class="text-lg line-through opacity-50">$1</h2>
+                <h2 class="text-7xl font-semibold">$1</h2>
+              </div>
+              <h2 class="text-base opacity-80 mt-4 font-medium">Monthly</h2>
+            </div>
+            <div class="bg-red-500 text-white rounded-xl text-center flex flex-col justify-center items-center my-4 lg:py-20">
+              <div class="inline-flex items-center space-x-2">
+                <h2 class="text-lg line-through opacity-50">$6</h2>
+                <h2 class="text-7xl font-semibold">$5</h2>
+              </div>
+              <h2 class="text-base opacity-80 mt-4 font-medium">6 months</h2>
+            </div>
+            <div class="bg-slate-200 rounded-xl text-center flex flex-col justify-center items-center my-4 lg:py-20">
+              <div class="inline-flex items-center space-x-2">
+                <h2 class="text-lg line-through opacity-50">$12</h2>
+                <h2 class="text-7xl font-semibold">$9</h2>
+              </div>
+              <h2 class="text-base opacity-80 mt-4 font-medium">Yearly</h2>
+            </div>
           </div>
         </div>
       </section>
@@ -707,5 +711,5 @@
       </footer>
     </main>
   </body>
-  <script src="index.js"></script>
+  <script src="index.js"></link>
 </html>
