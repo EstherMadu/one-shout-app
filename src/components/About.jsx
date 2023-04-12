@@ -1,5 +1,5 @@
 import React from "react";
-import friends from "../images/friends.jpg";
+import friends from "../assets/images/friends.jpg";
 
 export const About = () => {
   return (
