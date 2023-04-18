@@ -11,7 +11,11 @@ export function FAQItem(props) {
     <section className="faq-item">
       <div className="faq-question" onClick={toggleOpen}>
         {props.question}
-        {isOpen ? <span> &#9650;</span> : <span>&#9660;</span>}
+        {isOpen ? (
+          <span className="arrow">&#9650;</span>
+        ) : (
+          <span className="arrow">&#9660;</span>
+        )}
       </div>
       {isOpen && <div className="faq-answer">{props.answer}</div>}
     </section>

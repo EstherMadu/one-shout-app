@@ -22,7 +22,7 @@ export const Footer = () => {
         <div>
           <h2 className="py-2">SOCIAL</h2>
 
-          <span className="social-icons flex flex-row gap-4">
+          <span className="social-icons flex flex-row justify-center gap-4">
             <a
               href="https://www.linkedin.com/company/economic-growth-and-development-center/"
               target="_blank"

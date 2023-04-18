@@ -45,6 +45,14 @@ img {
   border-left: 1px solid #ccc;
   width: 45rem;
 }
+span {
+  font-size: 10px;
+  color: #ccc;
+}
+
+.arrow {
+  font-size: 15px;
+}
 
 @media screen and (min-width: 768px) {
   .faq-item {
