@@ -29,7 +29,7 @@ export const Hero = () => {
           <img
             src={logo}
             alt="one shout logo"
-            className="logo-image rounded-3xl"
+            className="logo-image rounded-3xl mt-10"
           />
         </div>
       </div>

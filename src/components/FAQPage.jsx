@@ -9,7 +9,7 @@ export function FAQItem(props) {
 
   return (
     <section className="faq-item">
-      <div className="faq-question" onClick={toggleOpen}>
+      <div className="faq-question bg-slate-200" onClick={toggleOpen}>
         {props.question}
         {isOpen ? (
           <span className="arrow">&#9650;</span>

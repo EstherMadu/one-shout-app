@@ -41,13 +41,13 @@ img {
 
 .faq-answer {
   margin-top: 0.5rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
   border-left: 1px solid #ccc;
   width: 45rem;
 }
 span {
   font-size: 10px;
-  color: #ccc;
+  color: #897878;
 }
 
 .arrow {
