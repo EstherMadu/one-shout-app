@@ -1,13 +1,13 @@
 import React from "react";
-import friends from "../assets/images/friends.jpg";
+import camera from "../assets/images/camera.jpg";
 
 export const About = () => {
   return (
     <section className="py-32">
-      <div className="container grid md:grid-cols-2 items-center gap-12">
-        <div className="friends-img">
+      <div className="container grid md:grid-cols-2 items-center gap-20">
+        <div className="relative">
           <img
-            src={friends}
+            src={camera}
             alt="Image of friends holding hands"
             className="rounded-xl h-96 object-cover"
           />

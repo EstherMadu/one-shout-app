@@ -7,6 +7,7 @@ import { Pricing } from "./components/Pricing";
 import { faqItems } from "./components/data";
 import { FAQItem } from "./components/FAQPage";
 import { Footer } from "./components/Footer";
+import "boxicons";
 
 function App() {
   return (

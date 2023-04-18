@@ -1,7 +1,7 @@
 import React from "react";
 import appleStore from "../assets/images/apple-store.png";
 import googlePlay from "../assets/images/google-play.png";
-import logo from "../assets/images/one-shout-logo.png";
+import logo from "../assets/images/icon.png";
 
 export const Hero = () => {
   return (
