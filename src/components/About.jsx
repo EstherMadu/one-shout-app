@@ -1,15 +1,17 @@
 import React from "react";
-import camera from "../assets/images/camera.jpg";
+import camera from "../assets/images/camera.png";
+import phone from "../assets/images/apple.png";
+// import camera from "../assets/images/camera.png";
 
 export const About = () => {
   return (
-    <section className="py-32">
-      <div className="container grid md:grid-cols-2 items-center gap-20">
-        <div className="relative">
+    <section className="lg:my-72">
+      <div className="container grid md:grid-cols-2 items-center">
+        <div className="relative border-4 border-black phone-border w-80 ">
           <img
             src={camera}
-            alt="Image of friends holding hands"
-            className="rounded-xl h-96 object-cover"
+            alt="one-shout app"
+            className="camera  object-cover"
           />
         </div>
         <div>

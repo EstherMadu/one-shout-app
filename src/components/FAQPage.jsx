@@ -8,7 +8,7 @@ export function FAQItem(props) {
   };
 
   return (
-    <section className="faq-item">
+    <section className="faq-item my-6">
       <div className="faq-question bg-slate-200" onClick={toggleOpen}>
         {props.question}
         {isOpen ? (

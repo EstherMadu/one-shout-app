@@ -6,7 +6,7 @@ import twitter from "../assets/images/twitter.png";
 
 export const Footer = () => {
   return (
-    <footer className="bg-red-600  ">
+    <footer className="bg-red-600  mt-40 ">
       <div className="text-center lg:text-left text-white">
         <div className=" lg:flex lg:justify-between lg:font-semibold lg:px-40 p-10">
           <div>

@@ -54,6 +54,14 @@ span {
   font-size: 15px;
 }
 
+.phone-border {
+  border-radius: 70px;
+}
+
+.camera {
+  border-radius: 70px;
+}
+
 @media screen and (min-width: 768px) {
   .faq-item {
     margin-bottom: 1rem;
