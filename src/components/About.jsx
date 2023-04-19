@@ -5,7 +5,7 @@ import phone from "../assets/images/apple.png";
 
 export const About = () => {
   return (
-    <section className="lg:my-72">
+    <section className="my-72">
       <div className="container grid md:grid-cols-2 items-center">
         <div className="relative border-4 border-black phone-border w-80 ">
           <img
