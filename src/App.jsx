@@ -11,7 +11,7 @@ import "boxicons";
 
 function App() {
   return (
-    <main className="App bg-slate-100 font-sans">
+    <div className="App bg-slate-100 font-sans">
       <Navbar />
       <Hero />
       <About />
@@ -26,7 +26,7 @@ function App() {
         ))}
       </section>
       <Footer />
-    </main>
+    </div>
   );
 }
 
