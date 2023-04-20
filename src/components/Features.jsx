@@ -4,7 +4,7 @@ export const Features = () => {
   return (
     <section className="bg-gray-900 text-xl  lg:py-32 my-20 text-gray-200">
       <div className="container">
-        <h3 className="text-3xl lg:text-5xl font-semibold mb-28 text-center">
+        <h3 className="text-3xl lg:text-5xl font-semibold py-10 text-center">
           Our Features
         </h3>
         <div className="grid md:grid-cols-3 gap-8">

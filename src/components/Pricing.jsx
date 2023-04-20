@@ -2,7 +2,7 @@ import React from "react";
 
 export const Pricing = () => {
   return (
-    <section className="py-60">
+    <section className="py-10">
       <div className="container">
         <h2 className="text-3xl lg:text-5xl mb-16 font-semibold text-center">
           Pricing

@@ -5,16 +5,16 @@ import phone from "../assets/images/apple.png";
 
 export const About = () => {
   return (
-    <section className="my-72">
+    <section className="my-40 gap-4 mx-auto">
       <div className="container grid md:grid-cols-2 items-center">
-        <div className="relative border-4 border-black phone-border w-80 ">
+        <div className="relative border-4 border-black phone-border w-80 mx-auto">
           <img
             src={camera}
             alt="one-shout app"
-            className="camera  object-cover"
+            className="camera object-cover"
           />
         </div>
-        <div>
+        <div className="mt-20 lg:mt-0 text-center md:text-left">
           <h1 className="text-3xl lg:text-5xl font-semibold lg:font-medium">
             About the app
           </h1>
