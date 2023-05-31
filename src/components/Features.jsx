@@ -7,7 +7,7 @@ export const Features = () => {
         <h3 className="text-3xl lg:text-5xl font-semibold py-10 text-center">
           Our Features
         </h3>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center justify-start">
             <i className="bx bxs-megaphone bx-tada-hover  text-7xl opacity-70 mb-4"></i>
             <p className="px-8 py-4 text-center lg:w-80">
@@ -26,6 +26,10 @@ export const Features = () => {
             <p className="px-8 py-4 text-center lg:w-80">
               Multi-lingual option
             </p>
+          </div>
+          <div className="flex flex-col items-center justify-start">
+            <i className="bx bxs-location-plus bx-flashing-hover text-7xl opacity-70 mb-4"></i>
+            <p className="px-8 py-4 text-center lg:w-80">Locate</p>
           </div>
         </div>
       </div>

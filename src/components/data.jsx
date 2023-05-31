@@ -167,6 +167,13 @@ export const faqItems = [
       "Click “Settings” on the App, click account settings, click location, scroll to your preferred country and click.",
   },
   {
+    question:
+      " I receive a notification on my Apple watch but no sound on my Iphone",
+
+    answer:
+      "To resolve this go to Apple watch app on your iphone, tap notifications, scroll to One Shout and toggle off.",
+  },
+  {
     question: "How do I contact customer support?",
     answer:
       "Click “Settings” on the App, click on “Send Feedback” OR Go to https://www.ebsinafrica.com/one-shout click on contact us to send us a message. You can also send a mail to us on oneshoutapp@gmail.com",

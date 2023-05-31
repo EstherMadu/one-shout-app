@@ -7,7 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: rgb(241 245 249);
+}
 .container {
   max-width: 1200px !important;
   margin: 0 auto;

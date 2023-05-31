@@ -1,7 +1,6 @@
 import React from "react";
 import camera from "../assets/images/camera.png";
 import phone from "../assets/images/apple.png";
-// import camera from "../assets/images/camera.png";
 
 export const About = () => {
   return (
