@@ -22,7 +22,7 @@ export const Footer = () => {
                 </div>
                 <div>
                   <h2>EMAIL</h2>
-                  <p>info@ebsinafrica.com</p>
+                  <p>info@egdcenter.org</p>
                 </div>
               </div>
               <div>
@@ -45,7 +45,7 @@ export const Footer = () => {
                     <img className="w-6 h-6" src={facebook} alt="facebook" />
                   </a>
                   <a
-                    href="https://www.instagram.com/egdcenter/"
+                    href="https://www.instagram.com/oneshout.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

@@ -28,6 +28,11 @@ export const About = () => {
             and safety. The Multi-lingual feature makes One Shout easy to use by
             all as you can select your preferred language.
           </p>
+          <div className="bg-stone-200 rounded-xl w-52 py-2 px-2 my-10 flex mx-auto">
+            <p className="text-center text-gray-800">
+              It sends a message all the time and rings over 99% of the time
+            </p>
+          </div>
         </div>
       </div>
     </section>
