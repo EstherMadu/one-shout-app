@@ -13,7 +13,7 @@ export const Footer = () => {
           <div>
             <h1 className="text-3xl py-4">Contact Us</h1>
 
-            <div className="flex flex-col lg:flex-row lg:space-x-[600px] gap-32">
+            <div className="flex flex-col lg:flex-row lg:space-x-[600px] gap-6 lg:gap-32">
               <div>
                 <div>
                   <h2>PHONE</h2>
@@ -25,7 +25,7 @@ export const Footer = () => {
                   <p>info@egdcenter.org</p>
                 </div>
               </div>
-              <div>
+              <div className="flex flex-col">
                 <Link to="privacy-policy">Privacy Policy </Link>
                 <Link to="terms-of-use">Terms Of Use </Link>
                 <h2 className="py-2">SOCIAL</h2>
