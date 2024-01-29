@@ -12,16 +12,27 @@ export const Hero = () => {
             One Shout App
           </h1>
           <span className="download-channel mt-10">
-            <img
-              src={googlePlay}
-              className="w-1/2 lg:w-56 lg:h-1/4"
-              alt="get on google play"
-            />
-            <img
-              src={appleStore}
-              alt="download on apple store"
-              className="w-1/2 lg:w-56 lg:h-1/4"
-            />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.ebs.shout"
+              target="_blank"
+            >
+              <img
+                src={googlePlay}
+                className="w-full lg:w-56 lg:h-auto"
+                alt="get on google play"
+              />
+            </a>
+
+            <a
+              href="https://apps.apple.com/us/app/one-shout/id1665137594"
+              target="_blank"
+            >
+              <img
+                src={appleStore}
+                alt="download on apple store"
+                className="w-full lg:w-56 lg:h-auto"
+              />
+            </a>
           </span>
         </div>
 
