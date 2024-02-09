@@ -36,6 +36,12 @@ export const faqItems = [
       "To resolve this, make sure the app is set as priority, the app is not on silence and your notification volume is turned up.",
   },
   {
+    question:
+      "I receive a notification on my Apple watch but no sound on my Iphone",
+    answer:
+      "To resolve this go to Apple watch app on your iphone, tap notifications, scroll to One Shout and toggle off.",
+  },
+  {
     question: "On the Locate page, I can’t locate my contact",
     answer:
       "You can only locate your contact when he or she has accepted a “request to locate” from you.",
